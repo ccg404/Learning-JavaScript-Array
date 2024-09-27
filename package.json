@@ -1,0 +1,18 @@
+{
+  "name": "learning-javascript-array",
+  "version": "1.0.0",
+  "description": "Using html, css and javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/index.css -o ./src/App.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "learning-javascript-array": "file:"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.12"
+  }
+}

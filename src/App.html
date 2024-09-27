@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning JavaScript Array</title>
+    <link rel="stylesheet" href="App.css">
+</head>
+<body>
+    <section class="flex flex-col items-center justify-center h-screen">
+        <h1 class="text-4xl font-bold p-5">Learning JavaScript Array</h1>
+        <div id="container" class="flex flex-col items-center justify-center p-5">
+            <div id="box" class="flex flex-col items-center justify-center p-5 leading-loose">
+                <h2>Array</h2>
+                <p class="text-justify text-black font-bold pt-5 ">Array is a collection of elements,
+                    To enter the elements, use comma(,) 
+                    <br> Example: 1,2,3,4,5
+                </p>
+                
+            </div>
+        </div>
+        <div id="input-container" class="flex flex-col items-center justify-center p-5 box-content gap-5">
+            <input type="text" id="input-array" class="p-2 border-2 border-gray-300 rounded-md mb-5 w-[350px] text-center focus:outline-none focus:border-blue-500" placeholder="Enter the elements of the array">
+            <button id="submit-array" class="p-3 w-20 bg-blue-500 text-white font-bold rounded-md hover:bg-blue-600">Submit</button>
+            <div class="flex flex-row gap-5">
+                <button id="pop-array" class="p-3 w-20 bg-red-500 text-white font-bold rounded-md hover:bg-red-600">Pop</button>
+                <button id="push-array" class="p-3 w-20 bg-green-500 text-white font-bold rounded-md hover:bg-green-600">Push</button>
+                <button id="shift-array" class="p-3 w-20 bg-yellow-500 text-white font-bold rounded-md hover:bg-yellow-600">Shift</button>
+                <button id="unshift-array" class="p-3 w-20 bg-purple-500 text-white font-bold rounded-md hover:bg-purple-600">Unshift</button>
+            </div>
+        </div>
+        <div id="output-container" class="flex flex-col items-center justify-center p-5">
+            <h2>Output</h2>
+            <p id="array-elements" class="text-center text-black font-bold pt-5"></p>
+        </div>
+    </section>
+    <script src="App.js"></script>
+</body>
+</html>
